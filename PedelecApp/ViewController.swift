@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         print("reserve tapped")
         let reservation = Reservation(bike: pedelecName.text!, startDateTime: datePicker.date)
         reservation.save()
+        test
     }
 }
 
